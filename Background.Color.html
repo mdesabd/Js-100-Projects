@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom-Event</title>
+</head>
+
+<body>
+    <h1>Dom Event</h1>
+
+
+
+
+
+
+
+
+    <!-- <h1>Event Diye Clickbaji</h1>
+    <button onclick="alert('This is my 1st work!!')">click me</button> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--     
+    <h1 onclick="alert('Masud valo hoiya ja!')">Click me alert</h1>
+    <button onclick="alert('This is my 1st work!!')">click me</button> -->
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <h1>Event Diye Clickbaji</h1>
+    <button onclick="console.log('7')">click me</button>  -->
+
+
+
+
+
+
+    <!-- system number-1 -->
+    <!-- red color -->
+    <button onclick="document.body.style.backgroundColor='red'">Click Me: Red</button>
+
+    <!-- yellow color -->
+    <button onclick="document.body.style.backgroundColor='yellow'">Click Me: Yellow</button>
+
+
+
+
+
+    <!-- Amra ata use korb.....*******************************. -->
+    <!-- event handeler -->
+    <!-- system number-2 -->
+    <button onclick="makeBlue()">Click Me: Blue</button>
+    <!-- js code -- 
+function makeBlue() {
+    document.body.style.backgroundColor = 'blue';
+} -->
+                                                                                                                                                                                                                                                                                                                                                       
+
+    <!-- system number-3 -->
+    <!-- function call kora jabe na -->
+    <button id="make-orange-button">Click Me: Orange </button>
+
+    <!-- <script>
+        // just set the function ...dont call.
+        const orangeButton = document.getElementById('make-orange-button');
+
+        orangeButton.onclick = makeOrange; //function call kora jabe na. No ()-aita
+
+        function makeOrange() {
+            document.body.style.backgroundColor = 'orange';
+        }
+
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- system number-4 -------------- -->
+    <!-- //anonymus function -->
+    <button id="make-green-button">Clike Me:Green </button>
+
+    <!-- <script>
+        const greenButton = document.getElementById('make-green-button');
+        //anonymus function
+        greenButton.onclick = function () {  //makeGreen ai function name ditehobe na
+
+            document.body.style.backgroundColor = 'green';
+
+        }
+
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+    <!-- system number-5 -------------- -->
+    <!-- most of case use hoy--- -->
+    <!-- addEventListener ---method-->
+
+    <button id="make-golddenrod-button">Click Me: GolddenRod</button>
+
+
+    <!-- <script>
+        const golddenButton = document.getElementById('make-golddenrod-button');
+
+        golddenButton.addEventListener('click', makeGoldenrod)
+
+
+        function makeGoldenrod() {
+            document.body.style.backgroundColor = 'goldenrod';
+        }
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- system number-6 -------------- -->
+
+    <button id="make-hotpink-button">Click Me: Hotpink</button>
+
+    <!-- <script>
+        const HotpinkButton = document.getElementById('make-hotpink-button');
+
+        HotpinkButton.addEventListener('click', function makeHotPink() {
+            document.body.style.backgroundColor = 'hotpink'
+        })
+
+    </script> -->
+
+
+
+
+
+
+
+
+    <!-- Amra ata use korb.....*******************************. -->
+    <!-- system number-7 -Direct Action------------- -->
+    <!-- Direct Shortcart.... -->
+    <button id="lightBlue-button">Click Me:Lightblue</button>
+    <!-- <script>
+        document.getElementById('lightBlue-button').addEventListener('click', function () { document.body.style.backgroundColor = 'lightblue' })
+
+    </script>
+ -->
+
+
+
+    <script src="25-1-dom-event.js"></script>
+
+</body>
+
+</html>
